@@ -1,17 +1,22 @@
-body {
-	line-height: 1;
-}
-
-header {
+.header {
 	text-align: center;
 	background-size: cover;
-	background: url("https://img.shockblast.net/2014/02/Pattern-Library-ShockBlast.jpg");
+	background: url(https://img.shockblast.net/2014/02/The-Pattern-Library-ShockBlast.jpg);
 	color: white;
 }
 
-img {
-	height: 214px;
-	width: 214px;
+.profile {
+	margin-top: 50px;
+	border: 7px solid white;
+	border-radius: 20px;
+	height: 200px;
+	width: 200px;
+}
+
+h1 {
+	font-size: 70px;
+	margin: 20px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -19,23 +24,38 @@ ul {
 	background: #00BAD8;
 }
 
-ul, menu, dir {
-	display: block;
-	-webkit-margin-before: 1em;
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 40px;
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
 }
 
-element.style {
-
+a:visited {
+	color: black;
 }
 
-.profile {
+li > a {
+	text-transform: uppercase;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 50px;
+	width: 50%;
+}
+
+article {
 	margin-top: 50px;
-	border: 7px solid-white;
-	border-radius: 30px;
-	height: 200px;
-	width: 200px;
+}
+
+h2 {
+	font-size: 36px;
+	margin: 10px 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	margin: 20px 0px;
+	line-height: 1.5;
+	font-size: 20px;
+	clear: left;
 }
